@@ -1,0 +1,88 @@
+.Story{
+    height: 1000px;
+    background-color: black;
+  }
+
+  .Story-title{
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    font-size: 300%;
+  }
+
+  .pink{
+    background-color: rgb(243, 44, 200);
+  }
+  .purple{
+    background-color: blueviolet;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+
+  .faces{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+  }
+
+  .face{
+    border-radius: 100px;
+  }
+  
+
+  .human{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .people-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .names{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .ppl-text1{
+    color: white;
+  }
+  .ppl-text{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+  }
+
+
+  @media screen and (max-width:767px){
+    .Story-title{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+
+    }
+
+    .people-2{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .Story{
+        height: 1300px;
+    }
+
+    .human{
+        gap: 10px;
+        
+    }
+
+  }

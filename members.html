@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="memb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+
+
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="left-nav">
+                <a href="index.html" class="nav-logo"><p>AD <br> MEN</p></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="story.html" class="nav-link">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="members.html" class="nav-link">Members</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="div-right">
+                <ul class="nav-item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <section class="members">
+
+        <div class="chooses">
+            <div class="lil-head">
+                <form>
+                    <select name="admins" id="chooser">
+                        <option value="">Admins</option>
+                        <option value="">All members</option>
+                    </select>
+
+                    <label for="sort">Sort by:</label>
+                    <select name="sort" id="chooser">
+                        <option value="">Default</option>
+                        <option value="">No. of followers</option>
+                        <option value="">Newest to oldest</option>
+                        <option value="">Oldest to newest</option>
+                    </select>
+
+                </form>
+            </div>
+
+            <div class="search">
+                <input class="search" type="text" placeholder="Search..">
+            </div>
+            
+        </div>
+
+
+        
+
+
+        <div class="registration-form">
+            <h2>User Registration</h2>
+            <form action="your_processing_script.php" method="post">
+              <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" required>
+              </div>
+        
+              <div class="form-group">
+                <button type="submit">Register</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="gif">
+            <div class="gif1"><img src="fa958f837889f3a7722937016d25b28c.gif" alt=""></div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <footer>
+        <div class="container-2">
+            <div class="footer-column">
+                <h3>About</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <button class="f-button">Read More</button>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <div class="reg">
+                    <div class="left-column">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Phone">
+                      </div>
+                      <div class="right-column">
+                        <input type="text" id="bigInput" placeholder="Text here">
+                      </div>
+                      
+                  </div>
+                  <div><button class="confirm">submit</button></div>
+            </div>
+            <div class="footer-column">
+                <h3>Thanks to our advertisers</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="/main.js"></script>
+</html>
